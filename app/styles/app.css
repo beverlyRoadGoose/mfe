@@ -1,2 +1,5 @@
 @import "base.css";
 @import "pace.css";
+
+@import "components/movies-main.css";
+@import "components/loading-spinner.css";

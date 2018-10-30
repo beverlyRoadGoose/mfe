@@ -1,1 +1,13 @@
-{{yield}}
+<div id="mm">
+	<h2 id="mm-header"></h2>
+
+	<div id="mm-loading-spinner">
+    	{{loading-spinner}}
+  	</div>
+
+	<div id="mm-movies">
+		{{#each movies key="@index" as |movie|}}
+  			{{#link-to 'movie' movie.id class="mm-movie-link"}}<img src="https://image.tmdb.org/t/p/w500/{{movie.moviePoster}}" class="mm-movie-poster">{{/link-to}}
+		{{/each}}
+	</div>
+</div>
