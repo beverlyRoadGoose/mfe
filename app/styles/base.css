@@ -30,3 +30,10 @@ body {
   font-family: 'Lato-Light', serif;
   background-color: #f3f3f3;
 }
+
+.transitions{
+  transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s
+}
