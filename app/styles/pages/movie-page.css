@@ -21,6 +21,9 @@
 	padding-bottom: 56.25%; /* 16:9 */  padding-top: 25px;
 	-moz-box-sizing: border-box;
   	-webkit-box-sizing: border-box;
+  	-webkit-box-shadow: -1px 0px 40px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 0px 40px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px 0px 40px 0px rgba(0,0,0,0.75);
 }
 
 .ytb-vid{
