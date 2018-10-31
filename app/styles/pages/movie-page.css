@@ -1,0 +1,35 @@
+#mp {
+	width: 50%;
+	margin: auto;
+	padding-top: 10px;
+}
+
+#mp-header {
+	background-color: #bada55;
+	color: #ffffff;
+	width: max-content;
+	padding: 7px;
+	border-radius: 5px;
+}
+
+#mp-trailer {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 7px;
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */  padding-top: 25px;
+	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+}
+
+.ytb-vid{
+	position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+	border-radius: 7px;
+}
+
+@media screen and (max-width: 700px) {
+  	#mp {
+    	width: 95%;
+	}
+}
