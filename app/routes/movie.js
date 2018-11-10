@@ -11,7 +11,7 @@ export default Route.extend({
     },
 
     getMovie: function(movieId) {
-		return $.parseJSON(Ember.$.ajax({
+		return $.parseJSON($.ajax({
                 type: 'GET',
                 url: 'https://movies-be.herokuapp.com/movies/' + movieId,
                 async: false
@@ -20,7 +20,7 @@ export default Route.extend({
     },
 
     getMovieTrailer: function(movieId) {
-		return $.parseJSON(Ember.$.ajax({
+		return $.parseJSON($.ajax({
                 type: 'GET',
                 url: 'https://movies-be.herokuapp.com/movies/' + movieId + '/trailer',
                 async: false
